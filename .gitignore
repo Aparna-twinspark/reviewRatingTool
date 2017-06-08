@@ -1,25 +1,15 @@
-# CakePHP 3
-
 /vendor/*
+!/vendor/empty
 /config/app.php
-
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
-
+/config/bootstrap.php
+/config/aws_default.ini
+/tmp/*
+!/tmp/empty
 /logs/*
 !/logs/empty
-
-# CakePHP 2
-
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+config/Migrations/schema-dump-default.lock
+webroot/uploads/*
+!webroot/uploads/empty
+/composer.lock
+/webroot/business_logos
+/webroot/files
